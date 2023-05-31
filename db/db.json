@@ -1,6 +1,24 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text"
+    },
+    {
+        "note_id": "43fb74c6-3650-4614-8b0f-d6fa9aa27e1f"
+    },
+    {
+        "title": "Hello",
+        "text": "this is a new note",
+        "note_id": "c0c4a0b0-9097-4102-99af-4779d02fb574"
+    },
+    {
+        "title": "Fetch working",
+        "text": "This is a new note ",
+        "note_id": "2ee7eb62-3982-40d0-ad90-5fdab2dc369a"
+    },
+    {
+        "title": "Hello",
+        "text": "new test",
+        "note_id": "55c7455e-936f-466a-b6c6-95aee28de963"
     }
 ]
