@@ -20,5 +20,10 @@
         "title": "Hello",
         "text": "new test",
         "note_id": "55c7455e-936f-466a-b6c6-95aee28de963"
+    },
+    {
+        "title": "Work",
+        "text": "Get ready for work",
+        "note_id": "a6374eb4-9714-4666-8cf3-c1a74a59eea6"
     }
 ]

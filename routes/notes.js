@@ -7,7 +7,7 @@ const {
 } = require('../helpers/fsUtils');
 
 // GET Route for retrieving all the notes
-notes.get('/notes', (req, res) => {
+notes.get('/', (req, res) => {
   readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
@@ -19,7 +19,7 @@ notes.delete('/:note_id', (req, res) => {
     .then((data) => JSON.parse(data))
     .then((json) => {
       // Make a new array of all notes except the one with the ID provided in the URL
-      const result = json.filter((note) => notes.note_id !== noteId);
+      const result = json.filter((notes) => notes.note_id !== noteId);
 
       // Save that array to the filesystem
       writeToFile('./db/db.json', result);
@@ -33,7 +33,7 @@ notes.delete('/:note_id', (req, res) => {
 notes.post('/', (req, res) => {
   console.log(req.body);
 
-  const { title, text } = req.body;
+  const { title,text } = req.body;
 
   if (req.body) {
     const newNote = {
