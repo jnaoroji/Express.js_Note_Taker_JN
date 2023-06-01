@@ -141,3 +141,66 @@ You are required to submit BOTH of the following for review:
 
 https://git.heroku.com/express-note-taker-jn.git
 
+https://express-note-taker-jn.herokuapp.com/
+
+
+# # 11 Express.js: Jenny's Note Taker 
+
+## Description
+
+My task is to modify starter code to create an application called Note Taker that can be used to write and save notes. This app is designed for a small business owner to be able to write and save notes, to be able to organise their thoughts and keep track of tasks that need completion. This application will use an Express.js back end and will save and retrieve note data from a JSON file. It will connect to the already provided starter code and be deployed to Heroku.
+
+## Usage
+
+The note taker app has a landing page which links to a notes page. The existing notes appear on the left-hand column and there is an empty field on the right hand side to add notes.
+
+When you enter a new note into the title and text fields, a save icon appears in the navigation at the top of the page. This then saves the note and it appears on the left-hand side column.
+
+When the existing notes are clicked they appear on the right-hand column. The 'Write' icon (in the navigation bar) presents a empty fields to the user to enter a new note. 
+
+When the user clicks on the bin icon the note is then deleted from the left hand column.
+
+You can use this app by clicking on the link to the deployed application:  https://express-note-taker-jn.herokuapp.com/ 
+
+
+## Screenshot
+
+The following screenshot shows my web application's appearance and functionality:
+
+![this is the screenshot of my application, in the CLI](./assets/images/Cli.png)
+
+
+The following screenshot shows an example of a dynamically generated logo.svg based on user input:
+
+![this is the screenshot of my logo.svg file generated dynamically](./assets/images/generatedlogo.png)
+
+
+Here is a link to the walkthrough video that demonstrates the functionality of the SVG logo generator:
+https://youtu.be/yh5xZdkfQD0
+
+
+
+## Credits
+
+* [Heroku deployment guide](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
+* [express.router](https://expressjs.com/en/guide/routing.html#express-router)
+* [express.json](https://expressjs.com/en/4x/api.html#express.json)
+* [Insomnia](https://insomnia.rest/download)
+* [Insomnia](https://expressjs.com/)
+* [Node.js Path Module](https://nodejs.org/api/path.html)
+* [Javascript Promises](https://www.digitalocean.com/community/tutorials/understanding-javascript-promises)
+
+
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Please refer to the LICENSE in the repo or click on the badge for documentation.
+
+
+
+
+
+
+
+
