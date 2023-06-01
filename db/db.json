@@ -1,10 +1,27 @@
 [
     {
-        "note_id": "43fb74c6-3650-4614-8b0f-d6fa9aa27e1f"
-    },
-    {
         "title": "Hello",
         "text": "this is a new note",
         "note_id": "c0c4a0b0-9097-4102-99af-4779d02fb574"
+    },
+    {
+        "title": "This is a test",
+        "text": "Test note by Jenny",
+        "note_id": "7384bc95-1dfe-48ab-9dbd-801ee22b2169"
+    },
+    {
+        "title": "Demo Note",
+        "text": "open the note taker",
+        "note_id": "d13a820c-268e-41db-aff3-aea593ece170"
+    },
+    {
+        "title": "click on notes page",
+        "text": "taken to notes",
+        "note_id": "ea43f498-3b43-448b-9e25-08018000ae29"
+    },
+    {
+        "title": "Call Cathy",
+        "text": "Send Menus and confirm dietaries",
+        "note_id": "9e9d2fd8-7dcb-4a46-ab2f-e6c25e0a9b48"
     }
 ]
